@@ -1,7 +1,7 @@
 {
     "name": "replace-in-path",
     "version": "0.0.0-development",
-    "description": "A small \"find and replace\" library that does string replacements in provided paths.",
+    "description": "🔎 A small \"find and replace\" library that does string replacements in provided paths.",
     "main": "dist/index.js",
     "repository": {
         "type": "git",

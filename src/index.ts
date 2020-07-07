@@ -1,5 +1,3 @@
-// "replace-in-path" module (publish as a standalone NPM package).
-// Make sure to add the "preserve-case" feature (same as WebStorm has it)
 const globby = require("globby");
 const fs = require("fs");
 

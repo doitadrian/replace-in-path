@@ -1,4 +1,4 @@
-import replaceInPath from "..";
+import { replaceInPath } from "..";
 import { ncp } from "ncp";
 import path from "path";
 import fs from "fs";

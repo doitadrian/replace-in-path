@@ -53,7 +53,7 @@
         "test": "jest",
         "build": "rimraf ./dist *.tsbuildinfo && babel src -d dist --ignore __tests__/* --source-maps --copy-files --extensions \".ts\"",
         "watch": "babel src -d dist --source-maps --copy-files --extensions \".ts\" --watch",
-        "postbuild": "cp package.json LICENSE README.md dist/ && tsc -p tsconfig.json"
+        "postbuild": "tsc -p tsconfig.json"
     },
     "dependencies": {
         "globby": "^11.0.1"

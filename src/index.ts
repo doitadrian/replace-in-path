@@ -11,6 +11,9 @@ type Replacement = {
 type ReplaceInPathParam = Replacement | Replacement[];
 
 export const replaceInPath = (path: PathParam, replacement: ReplaceInPathParam) => {
+    // Make sure that file paths use forward-slashes.
+    path = path.replace(/\\/g, "/");
+
     const paths = globby.sync(path);
     const replacements = Array.isArray(replacement) ? replacement : [replacement];
 
